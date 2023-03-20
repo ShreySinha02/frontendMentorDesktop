@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* color: white; */
+}
+
+body{
+
+    display: flex;
+    flex-flow: row;
+    max-height: 100vh;
+}
+
+.top-div{
+    border-radius: 40px;
+    margin: .2rem;
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    position: relative;
+    background:  linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    color: white;
+}
+
+.res{
+position: absolute;
+top: 10%;
+}
+.circle{
+    width: 18rem;
+    height: 18rem;
+    border-radius: 50%;
+    background: linear-gradient(hsl(241, 81%, 54%),hsl(252, 100%, 67%));
+    text-align: center;
+    position: absolute;
+    top: 25%;
+    padding-top: 7rem;
+}
+.circle h1{
+    font-size: 3.5rem;
+}
+.circle p{
+    opacity: .5;
+}
+.top-div .great{
+    position: relative;
+    top: 70%;
+}
+.top-div .para{
+    text-align: center;
+    text-justify: auto;
+    position: relative;
+    top: 70%;
+    font-size: 2rem;
+    opacity: .5;
+}
+.top-div2{
+    width: 50%;
+    height: 100vh;
+ color: hsla(256, 72%, 46%, 1);
+    position: relative;
+ 
+}
+.right{
+    align-self: flex-start;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+}
+.b{
+ position: absolute;
+    top: 20%;
+    left: 10%;
+    display: flex;
+    flex-flow: column wrap;
+    gap: 3rem;
+}
+.box {
+    /* border: 2px solid red; */
+    border-radius: 20px;
+    width: 300%;
+    height: 10vh;
+    align-self: flex-start;
+    display: flex;
+    align-items: center;
+    position: relative;
+   
+    
+   
+}
+.box.red{
+    background: hsla(0, 100%, 67%,.2);
+    color: hsl(0, 100%, 67%);
+}
+.box.yellow{
+    background: hsla(39, 100%, 56%,.2);
+    color: hsl(39, 100%, 56%);
+}
+.box.green{
+    background: hsla(166, 100%, 37%,.2);
+    color: hsl(166, 100%, 37%) ;
+}
+.box.blue{
+    background: hsla(234, 85%, 45%,.2);
+    color: hsl(234, 85%, 45%);
+}
+.box .i{
+    position: relative;
+    left: 2%;
+}
+.box .h{
+    position: relative;
+    left: 5%;
+    font-size: 2rem;
+    display: inline;
+}
+
+.box .pa{
+ position: relative;
+ left: 50%;
+}
+.b .continue{
+    background: linear-gradient(hsl(252, 100%, 67%),hsl(241, 81%, 54%));
+    border-radius: 50px;
+    width: 150%;
+    height: 10vh;
+    text-align: center;
+    justify-content: center;
+    padding: 7%;
+    font-size: 2rem;
+    color: white;
+    position: relative;
+    left: 70%;
+}
